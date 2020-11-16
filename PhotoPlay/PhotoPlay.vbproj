@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{62A05EF1-3963-4C21-BE2C-E01A6B1F1E5A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>PhotoPlay.My.MyApplication</StartupObject>
+    <RootNamespace>PhotoPlay</RootNamespace>
+    <AssemblyName>PhotoPlay</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>PhotoPlay.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>PhotoPlay.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.10.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Conexion.vb" />
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAjustes.Designer.vb">
+      <DependentUpon>FormAjustes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAjustes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGameOver.Designer.vb">
+      <DependentUpon>FormGameOver.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormGameOver.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInstrucciones.Designer.vb">
+      <DependentUpon>FormInstrucciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormInstrucciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormJuego.Designer.vb">
+      <DependentUpon>FormJuego.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormJuego.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRanking.Designer.vb">
+      <DependentUpon>FormRanking.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormRanking.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRonda.Designer.vb">
+      <DependentUpon>FormRonda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormRonda.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageBoxSalir.Designer.vb">
+      <DependentUpon>MessageBoxSalir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MessageBoxSalir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Nick.Designer.vb">
+      <DependentUpon>Nick.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nick.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ranking.vb" />
+    <Compile Include="Sonido.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAjustes.resx">
+      <DependentUpon>FormAjustes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGameOver.resx">
+      <DependentUpon>FormGameOver.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInstrucciones.resx">
+      <DependentUpon>FormInstrucciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormJuego.resx">
+      <DependentUpon>FormJuego.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRanking.resx">
+      <DependentUpon>FormRanking.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRonda.resx">
+      <DependentUpon>FormRonda.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessageBoxSalir.resx">
+      <DependentUpon>MessageBoxSalir.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nick.resx">
+      <DependentUpon>Nick.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoInicio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoInstrucciones.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoIns%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoIns%282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoIns%283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoIns%284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoIns%285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackgroundMusic.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackgroundMusic.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoAjustes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flag1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coraSi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fifty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoNick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comodin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rendir.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoPregunta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speakerOff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speakerOn.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
