@@ -4,7 +4,7 @@
 
 
 <!-- PROJECT SHIELDS -->
-[![Release][release-shield]]
+![release-shield]
 [![Contributors][contributors-shield]][contributors-url] 
 [![Issues][issues-shield]][issues-url]
 [![Contact][discord-shield]][discord-url]
