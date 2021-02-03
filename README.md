@@ -4,7 +4,7 @@
 
 
 <!-- PROJECT SHIELDS -->
-
+[![Release][release-shield]]
 [![Contributors][contributors-shield]][contributors-url] 
 [![Issues][issues-shield]][issues-url]
 [![Contact][discord-shield]][discord-url]
@@ -131,6 +131,7 @@ Si quieres contribuir:
 
 [discord-shield]: https://img.shields.io/badge/chat-on%20discord-7289da.svg?style=flat&logo=discord
 [discord-url]: https://www.discord.com/users/290575161869205504
+[release-shield]: https://img.shields.io/badge/release%20date-March%202018-lightgrey
 [contributors-shield]: https://img.shields.io/github/contributors/Pikass0/Photoplay?color=green
 [contributors-url]: https://github.com/Pikass0/C2B_TareasGUI/graphs/contributors
 [issues-shield]: https://img.shields.io/github/issues-raw/Pikass0/Photoplay?color=orange
