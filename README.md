@@ -56,7 +56,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Sobre el proyecto
 
-![product-screenshot]<!--(https://example.com) por si se quiere metir link-->
+![menu-ss]<!--(https://example.com) por si se quiere metir link-->
 
 Juego basado en imágenes y preguntas. Proyecto para practicar Visual Basic con bases de datos MySQL.
 
@@ -107,6 +107,8 @@ Descargar [Xampp](https://www.apachefriends.org/es/download.html) para la base d
 * Puedes rendirte con el botón de la esquina inferior derecha
 * Para salir, ve al menú y dale a salir. También puedes <kbd>Alt</kbd> + <kbd>F4</kbd> para salir en cualquier momento
 
+![pregunta-ss]
+
 
 <!-- CONTRIBUTING -->
 ## Contribución
@@ -135,4 +137,5 @@ Si quieres contribuir:
 [issues-url]: https://github.com/Pikass0/C2B_TareasGUI/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat&logo=linkedin&color=blue
 [linkedin-url]: https://www.linkedin.com/in/marcelo-toral-martínez-573735176/
-[product-screenshot]: images/readme_swing.jpg
+[menu-ss]: /PhotoPlay/Resources/fotosReadme/menu.jpg
+[pregunta-ss]: /PhotoPlay/Resources/fotosReadme/pregunta.jpg
