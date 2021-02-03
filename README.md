@@ -133,9 +133,9 @@ Si quieres contribuir:
 [discord-url]: https://www.discord.com/users/290575161869205504
 [release-shield]: https://img.shields.io/badge/release%20date-March%202018-lightgrey
 [contributors-shield]: https://img.shields.io/github/contributors/Pikass0/Photoplay?color=green
-[contributors-url]: https://github.com/Pikass0/C2B_TareasGUI/graphs/contributors
+[contributors-url]: https://github.com/Pikass0/Photoplay/graphs/contributors
 [issues-shield]: https://img.shields.io/github/issues-raw/Pikass0/Photoplay?color=orange
-[issues-url]: https://github.com/Pikass0/C2B_TareasGUI/issues
+[issues-url]: https://github.com/Pikass0/Photoplay/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat&logo=linkedin&color=blue
 [linkedin-url]: https://www.linkedin.com/in/marcelo-toral-martínez-573735176/
 [menu-ss]: /PhotoPlay/Resources/fotosReadme/menu.jpg
