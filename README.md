@@ -89,7 +89,7 @@ Descargar [Xampp](https://www.apachefriends.org/es/download.html) para la base d
 
 1. Abrir Xampp y dar a **Start** tanto en Apache como en MySQL, y cuando se haya iniciado, dar a **Admin** de MySQL
 
-2. Crear una nueva base de datos llamada `photoplay3` e importar el archivo photoplay.sql para crear y poblar las tablas
+2. Crear una nueva base de datos llamada `photoplay3` e importar el archivo photoplay3.sql para crear y poblar las tablas
 
 3. Ejecutar el acceso directo Photoplay.exe 
    Si no funciona, ejecutar desde `\PhotoPlay\bin\Debug\PhotoPlay.exe`
