@@ -130,7 +130,7 @@ Si quieres contribuir:
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[platform-shield]: https://img.shields.io/badge/platform-black?style=flat&logo=https://simpleicons.org/?q=visual
+[platform-shield]: https://img.shields.io/badge/platform-black?style=flat&logo=visual-studio
 [discord-shield]: https://img.shields.io/badge/chat-on%20discord-7289da.svg?style=flat&logo=discord
 [discord-url]: https://www.discord.com/users/290575161869205504
 [release-shield]: https://img.shields.io/badge/release%20date-March%202018-lightgrey
